@@ -109,10 +109,5 @@ module Plane
       result.each_with_index {|item, index| row_hash[index + 1] = item}
       row_hash
     end
-
-    # 判断当前区域是否存在该行
-    def zones_exist_row? row
-
-    end
   end
 end
